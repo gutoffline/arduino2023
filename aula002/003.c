@@ -1,6 +1,6 @@
-// Variáveis
-int LedVermelho = 13;
-int tempo = 0;
+// Variáveis e Constante
+#define LedVermelho 13
+int tempo = 10000;
 
 void setup()
 {
@@ -9,7 +9,7 @@ void setup()
 
 void loop()
 {
-    tempo = tempo + 10;
+    tempo = tempo - 100;
     digitalWrite(LedVermelho,1);
     delay(tempo);
     digitalWrite(LedVermelho,0);

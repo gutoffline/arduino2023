@@ -32,3 +32,7 @@ Toda variável possui um tipo. Tipo da variável é a caracterísca da informaç
 - string: sequência de caracteres. Ex: Aline
 - boolean: verdadeiro(1) ou falso(0). Ex: true
 - void: tipo vazio, não tem tipo
+Ex: int tempo = 1000;
+## Constante
+um espaço reservado na memória com um valor definido onde esse valor será imutável.
+Ex: #define LedVermelho 13
